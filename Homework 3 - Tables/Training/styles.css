@@ -1,0 +1,31 @@
+.first-table {
+    border-collapse: collapse;
+    border-style: double;
+    width: 40em;
+    height: 10em;
+    table-layout: fixed;
+    background-color: yellow;
+    margin: auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.first-table tr td {
+    border-style: double;
+    text-align: center;
+    overflow: hidden;
+
+}
+.first-table tr {
+    height: 3em;
+}
+
+.first-table thead {
+    background-color: deepskyblue;
+}
+
+.not_unified td:nth-child(-n+2){
+    background-color: deepskyblue;
+}
+

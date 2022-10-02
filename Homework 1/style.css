@@ -1,0 +1,36 @@
+body {
+    margin: 10px;
+    background-color: antiquewhite;
+    font-family: Calibri;
+
+}
+
+html  {
+    box-sizing:border-box
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+h1 {
+    color: darkred;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+a  {
+    color: darkred;
+}
+
+hr {
+    color: darkred;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+}
